@@ -1,7 +1,9 @@
 import React from 'react';
 import styles from './Header.module.scss';
 import logo from '../../assets/header/logo-header.png';
-import { Link, NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
+
+
 
 const menu = [{ url: '/', name: 'каталог' }, { url: '/spetstekhnika', name: 'спецтехника' }, { url: '/dokumenty', name: 'документы' }, { url: '/kontakty', name: 'контакты' }, {url: '/poleznye-materialy' , name: 'статьи'}];
 
@@ -13,7 +15,7 @@ const Header = () => {
                 <ul className={styles['nav__list']}>
                     {menu.map((elem, index) => {
                        return (
-                            <li className={styles['nav__item']} id={elem[index]}><NavLink to={elem.url} className={styles['nav__link']}>{elem.name}</NavLink></li>)
+                            <li className={styles['nav__item']} id={elem[index]}><Link to={elem.url} className={styles['nav__link']}>{elem.name}</Link></li>)
                     })}
                 </ul>
             </nav>
