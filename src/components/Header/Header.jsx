@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 
 
-const menu = [{ url: '/', name: 'каталог' }, { url: '/spetstekhnika', name: 'спецтехника' }, { url: '/dokumenty', name: 'документы' }, { url: '/kontakty', name: 'контакты' }, {url: '/poleznye-materialy' , name: 'статьи'}];
+const menu = [{ url: '/', name: 'каталог' }, { url: '/technic', name: 'спецтехника' }, { url: '/documents', name: 'документы' }, { url: '/contacts', name: 'контакты' }, {url: '/poleznye-materialy' , name: 'статьи'}];
 
 const Header = () => {
     return (
@@ -15,7 +15,7 @@ const Header = () => {
                 <ul className={styles['nav__list']}>
                     {menu.map((elem, index) => {
                        return (
-                            <li className={styles['nav__item']} id={elem[index]}><Link to={elem.url} className={styles['nav__link']}>{elem.name}</Link></li>)
+                            <li className={styles['nav__item']} key={elem[index]}><Link to={elem.url} className={styles['nav__link']}>{elem.name}</Link></li>)
                     })}
                 </ul>
             </nav>
