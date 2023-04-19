@@ -1,26 +1,23 @@
-.container {
-    
-    .contacts {
-        min-height: 500px;
-        width: 970px;
-        margin: 0 auto;
+.contacts {
+    min-height: 500px;
+    width: 970px;
+    margin: 0 auto;
 
-        .title {
-            padding-bottom: 20px;
-            margin-bottom: 25px;
-            font-size: 36px;
-            font-weight: 500;
-            border-bottom: 1px solid #ccc;
-        }
+    .title {
+        padding-bottom: 20px;
+        margin-bottom: 25px;
+        font-size: 36px;
+        font-weight: 500;
+        border-bottom: 1px solid #ccc;
+    }
 
-        .text {
-            font-size: 15px;
-            line-height: 1.7;
+    .text {
+        font-size: 15px;
+        line-height: 1.7;
 
-            .link {
-                color: #337ab7;
-                text-decoration: none;
-            }
+        .link {
+            color: #337ab7;
+            text-decoration: none;
         }
     }
 }

@@ -69,10 +69,8 @@ const Technic = () => {
                 </li>
               )
             })}
-
           </ul>
         </div>
-
         <div className={styles.catalog}>
           <h1 className={styles['catalog__title']}>КАТАЛОГ СПЕЦТЕХНИКИ</h1>
           <nav className={styles['menu']}>

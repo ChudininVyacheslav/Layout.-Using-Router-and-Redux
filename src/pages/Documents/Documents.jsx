@@ -12,6 +12,6 @@ const Documents = () => {
       <Footer />
     </div>
   )
-}
+};
 
 export default Documents

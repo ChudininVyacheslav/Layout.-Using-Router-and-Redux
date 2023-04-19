@@ -30,12 +30,9 @@
                 border: 1px solid #dcdcdc;
                 text-align: center;
 
-                .cars__img {}
-
                 .cars__name {
                     font-size: 18px;
                     font-weight: 700;
-
 
                     .cars__link {
                         color: #0645ad;
@@ -60,11 +57,10 @@
 
     .catalog {
         border: 1px solid #aca8a8;
-        
+
 
         .catalog__title {
             height: 50px;
-            // margin-bottom: 10px;
             background-color: #303438;
             font-size: 14px;
             color: #FFFFFF;
@@ -77,37 +73,36 @@
         .menu {
             width: 225px;
 
-            .menu__list {
 
-                .menu__item {
 
-                    .menu__link {
-                        width: 225px;
-                        padding: 5px 0 5px 10px;
-                        font-size: 14px;
-                        color: #303438;
-                        font-weight: 300;
-                        text-align: left;
-                        text-decoration: none;
-                        display: table-cell;
-                        line-height: 1.7;
-                    }
 
-                    .menu__link:hover {
-                        width: 225px;
-                        padding-left: 10px;
-                        background-color: #303438;
-                        font-size: 14px;
-                        color: #ffffff;
-                        font-weight: 300;
-                        text-align: left;
-                        text-decoration: none;
-                        display: table-cell;
-                        line-height: 1.7;
-                    }
-                }
+
+            .menu__link {
+                width: 225px;
+                padding: 5px 0 5px 10px;
+                font-size: 14px;
+                color: #303438;
+                font-weight: 300;
+                text-align: left;
+                text-decoration: none;
+                display: table-cell;
+                line-height: 1.7;
             }
-        }
 
+            .menu__link:hover {
+                width: 225px;
+                padding-left: 10px;
+                background-color: #303438;
+                font-size: 14px;
+                color: #ffffff;
+                font-weight: 300;
+                text-align: left;
+                text-decoration: none;
+                display: table-cell;
+                line-height: 1.7;
+            }
+
+        }
     }
+
 }

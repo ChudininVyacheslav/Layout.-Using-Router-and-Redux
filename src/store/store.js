@@ -5,7 +5,6 @@ import { reducerListCards } from './reducerListCards';
 const rootReducer = combineReducers({
     cards: reducerCards,
     listCards: reducerListCards
-})
-
+});
 
 export const store = createStore(rootReducer);

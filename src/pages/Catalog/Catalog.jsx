@@ -9,7 +9,7 @@ function Catalog() {
       <Main />
       <Foter />
     </div>
-  );
-}
+  )
+};
 
 export default Catalog;

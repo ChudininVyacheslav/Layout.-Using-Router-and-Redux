@@ -2,9 +2,10 @@ import React from 'react';
 import styles from './Contacts.module.scss';
 import Header from '../../components/Header/Header';
 import Footer from '../../components/Footer/Footer';
+
 const Contacts = () => {
   return (
-    <div className={styles.container}>
+    <div>
       <Header />
       <div className={styles.contacts}>
         <h1 className={styles.title}>Контанкты</h1>
@@ -17,6 +18,6 @@ const Contacts = () => {
       <Footer />
     </div>
   )
-}
+};
 
 export default Contacts
