@@ -2,5 +2,15 @@
     display: flex;
     justify-content: space-around;
     margin-bottom: 50px;
-    background-color: #22242f;   
+    background-color: #22242f;
+}
+
+@media (max-width: 768px) {
+    .header {
+
+        .header__logo {
+            width: 300px;
+        }
+        flex-direction: column;
+    }
 }

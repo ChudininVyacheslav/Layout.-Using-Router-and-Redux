@@ -16,3 +16,9 @@
         font-weight: 700;
     }
 }
+
+@media (max-width: 1024px) {
+    .text {
+        width: 1024px;
+    }
+}
