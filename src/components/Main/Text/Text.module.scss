@@ -19,6 +19,12 @@
 
 @media (max-width: 1024px) {
     .text {
-        width: 1024px;
+        width: 900px;
+    }
+}
+
+@media (max-width: 768px) {
+    .text {
+        width: 800px;
     }
 }

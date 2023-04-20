@@ -9,7 +9,7 @@ const Card = () => {
     return (
         <div className={styles.container}>
             <h1 className={styles.title}>{data.title}</h1>
-            <div className={styles.container}>
+            <div className={styles.wrap}>
                 <div className={styles['item-1']}>
                     <img className={styles['item-1__img']} src={data.img} alt='Щебень'></img>
                 </div>

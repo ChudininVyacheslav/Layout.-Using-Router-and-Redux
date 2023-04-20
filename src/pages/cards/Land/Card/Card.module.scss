@@ -9,7 +9,7 @@
         margin: 0 auto;
     }
 
-    .container {
+    .wrap {
         width: 970px;
         display: flex;
         justify-content: space-around;
@@ -46,5 +46,17 @@
                 font-size: 20px;
             }
         }
+    }
+}
+
+@media (max-width: 768px) {
+    .wrap {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 1024px) {
+    .wrap {
+        flex-direction: column;
     }
 }

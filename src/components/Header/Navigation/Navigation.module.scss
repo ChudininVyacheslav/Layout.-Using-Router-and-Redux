@@ -2,7 +2,6 @@
     display: flex;
     margin-top: 25px;
 
-
     .nav__list {
         display: flex;
         .nav__item {
@@ -22,3 +21,16 @@
         }
     }
 }
+
+@media (max-width: 768px) {
+    .nav {
+        justify-content: space-around;
+    }
+}
+
+@media (max-width: 1024px) {
+    .nav {
+        justify-content: space-around;
+    }
+}
+

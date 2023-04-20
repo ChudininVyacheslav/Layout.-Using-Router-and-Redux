@@ -11,3 +11,25 @@
         color: #000000;
     }
 }
+
+@media (max-width: 1024px) {
+    .container__title {
+        text-align: center;
+        width: 900px;
+    }
+
+    .banner {
+        width: 750px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container__title {
+        text-align: center;
+        width: 700px;
+    }
+
+    .banner {
+        width: 650px;
+    }
+}

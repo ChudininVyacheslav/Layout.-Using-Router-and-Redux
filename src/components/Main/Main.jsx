@@ -11,7 +11,7 @@ const Main = () => {
       <ListCards />
       <h2 className={styles['container__title']}>ПРОДАЖА И ДОСТАВКА СЫПУЧИХ И НЕРУДНЫХ МАТЕРИАЛОВ В ЕКАТЕРИНБУРГЕ</h2>
       <Text />
-      <img alt='banner' src={banner}></img>
+      <img className={styles.banner} alt='banner' src={banner}></img>
     </div>
   )
 };
