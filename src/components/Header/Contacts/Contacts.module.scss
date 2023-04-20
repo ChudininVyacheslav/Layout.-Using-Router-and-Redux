@@ -1,0 +1,25 @@
+.info {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+
+    .info__text {
+        color: #ededed;
+        font-size: 8pt;
+        text-align: center;
+    }
+
+    .info__number {
+        margin-top: 5px;
+
+        .info__number-link{
+            text-decoration: none;
+            text-align: center;
+            font-size: 18pt;
+            font-weight: 600;
+            color: #fbe900;
+        
+        }
+    }
+
+}

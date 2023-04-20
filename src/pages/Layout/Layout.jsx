@@ -7,6 +7,8 @@ import Breakstone from '../../pages/cards/Breakstone/Breakstone';
 import Contacts from '../../pages/Contacts/Contacts';
 import { Provider } from 'react-redux';
 import { store } from '../../store/store';
+import Rock from '../cards/Rock/Rock';
+import Land from '../cards/Land/Land';
 
 const router = createBrowserRouter([
     {
@@ -22,12 +24,20 @@ const router = createBrowserRouter([
         element: <Documents />
     },
     {
-        path: '/breakstone',
+        path: '/contacts',
+        element: <Contacts />
+    },
+    {
+        path: '/product/1',
         element: <Breakstone />
     },
     {
-        path: '/contacts',
-        element: <Contacts />
+        path: '/product/2',
+        element: <Rock />
+    },
+    {
+        path: '/product/3',
+        element: <Land />
     },
 ]);
 

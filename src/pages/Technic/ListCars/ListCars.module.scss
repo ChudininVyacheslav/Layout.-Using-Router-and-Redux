@@ -1,0 +1,46 @@
+    .cars__title {
+        margin-bottom: 25px;
+        font-size: 34px;
+        text-transform: uppercase;
+        font-weight: 700;
+    }
+
+    .cars__cards {
+        display: flex;
+        flex-wrap: wrap;
+
+        .cars__item {
+            display: flex;
+            flex-direction: column;
+            height: 214px;
+            width: 192px;
+            margin-left: 30px;
+            margin-bottom: 20px;
+            padding-left: 15px;
+            padding-right: 15px;
+            background: #f7f7f7;
+            border: 1px solid #dcdcdc;
+            text-align: center;
+
+            .cars__name {
+                font-size: 18px;
+                font-weight: 700;
+
+                .cars__link {
+                    color: #0645ad;
+                }
+            }
+        }
+
+        .cars__item:hover {
+            height: 214px;
+            width: 192px;
+            margin-left: 30px;
+            margin-bottom: 20px;
+            padding-left: 15px;
+            padding-right: 15px;
+            background: #f7f7f7;
+            border: 1px solid #979797;
+            text-align: center;
+        }
+    }

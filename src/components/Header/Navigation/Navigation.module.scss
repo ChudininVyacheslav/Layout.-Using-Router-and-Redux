@@ -1,0 +1,24 @@
+.nav {
+    display: flex;
+    margin-top: 25px;
+
+
+    .nav__list {
+        display: flex;
+        .nav__item {
+            margin-left: 20px;
+
+            .nav__link{
+                text-decoration: none;
+                text-transform: uppercase;
+                color: #ededed;
+            }
+
+            .nav__link:hover{
+                text-decoration: none;
+                text-transform: uppercase;
+                color: #ffed00;
+            }
+        }
+    }
+}

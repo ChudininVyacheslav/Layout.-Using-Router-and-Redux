@@ -1,0 +1,49 @@
+.container {
+    min-height: 427px;
+    
+    .title {
+        width: 940px;
+        font-size: 30px;
+        line-height: 30px;
+        font-weight: 700;
+        margin: 0 auto;
+    }
+
+    .container {
+        width: 970px;
+        display: flex;
+        justify-content: space-around;
+        margin: 0 auto;
+
+            .item-1__img {
+                width: 374px;
+                height: 280px;
+            }
+       
+        .item-2 {
+            width: 492px;
+            padding-left: 10px;
+            border-left: 3px solid #ccc;
+            line-height: 150%;
+            font-size: 14px;
+
+            .item-2__name {
+                margin: 10px 0 25px;
+                font-size: 25px;
+            }
+
+            .item-2__delivery {
+                font-weight: 700;
+            }
+
+            .item-2__description {
+                margin-bottom: 20px;
+            }
+
+            .item-2__price {
+                margin-bottom: 15px;
+                font-size: 20px;
+            }
+        }
+    }
+}

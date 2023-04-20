@@ -1,4 +1,4 @@
-import { listCards } from "../components/Main/listCards";
+import { listCards } from "../data servece/listCards";
 
 const defaultState = listCards;
 

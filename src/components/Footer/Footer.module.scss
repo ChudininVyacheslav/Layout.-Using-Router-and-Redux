@@ -11,60 +11,8 @@
         margin-top: 40px;
         padding-top: 30px;
         margin-bottom: 40px;
-
-
-        .footer__logo {}
-
-        .text {
-
-            .text__materials {
-                width: 320px;
-
-
-                .text__link {
-                    text-decoration: none;
-                    text-decoration: underline;
-                    color: #c6cbcd;
-                }
-            }
-
-            .text__slogan {
-                margin-top: 20px;
-                font-size: 12pt;
-                font-style: italic;
-                color: #fedb00;
-            }
-        }
-
-        .info {
-            span {
-                color: #808080;
-            }
-
-            .info__contacts {
-                font-size: 12pt;
-            }
-
-            .info__number {
-
-                .info__telephone {}
-            }
-
-            .info__location {
-
-                .info__address {}
-            }
-
-            .info__mail {
-
-                .info__email {}
-
-                .info__email-link {
-                    color: #c6cbcd;
-                }
-            }
-        }
     }
+
     .footer__years {
         margin-left: 140px;
     }

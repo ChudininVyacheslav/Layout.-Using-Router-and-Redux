@@ -3,7 +3,7 @@ import Header from '../../../components/Header/Header';
 import Footer from '../../../components/Footer/Footer';
 import Card from './Card/Card';
 
-const Breakstone = () => {
+const Land = () => {
   return (
     <div>
       <Header />
@@ -13,4 +13,4 @@ const Breakstone = () => {
   )
 };
 
-export default Breakstone
+export default Land

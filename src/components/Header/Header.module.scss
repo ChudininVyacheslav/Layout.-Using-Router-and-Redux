@@ -2,58 +2,5 @@
     display: flex;
     justify-content: space-around;
     margin-bottom: 50px;
-    background-color: #22242f;
-
-    .header__logo {}
-
-    .nav {
-        display: flex;
-        margin-top: 25px;
-
-
-        .nav__list {
-            display: flex;
-            .nav__item {
-                margin-left: 20px;
-
-                .nav__link{
-                    text-decoration: none;
-                    text-transform: uppercase;
-                    color: #ededed;
-                }
-
-                .nav__link:hover{
-                    text-decoration: none;
-                    text-transform: uppercase;
-                    color: #ffed00;
-                }
-            }
-        }
-    }
-
-    .info {
-        display: flex;
-        flex-direction: column;
-        margin-top: 40px;
-
-        .info__text {
-            color: #ededed;
-            font-size: 8pt;
-            text-align: center;
-        }
-
-        .info__number {
-            margin-top: 5px;
-
-            .info__number-link{
-                text-decoration: none;
-                text-align: center;
-                font-size: 18pt;
-                font-weight: 600;
-                color: #fbe900;
-            
-            }
-        }
-
-    }
+    background-color: #22242f;   
 }
