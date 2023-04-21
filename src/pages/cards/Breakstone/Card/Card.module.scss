@@ -49,12 +49,18 @@
 }
 
 @media (max-width: 768px) {
-    .wrap {
-        flex-direction: column;
+    .container {
+        .title {
+            width: 500px;
+        }
+
+        .wrap {
+            flex-direction: column;
+        }
     }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1000px) {
     .wrap {
         flex-direction: column;
     }

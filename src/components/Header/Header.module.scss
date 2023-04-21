@@ -7,7 +7,7 @@
 
 @media (max-width: 768px) {
     .header {
-        width: 900px;
+        width: 600px;
 
         .header__logo {
             margin: 0 auto;
@@ -18,9 +18,9 @@
     }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1000px) {
     .header {
-        width: 800px;
+        width: 1000px;
 
         .header__logo {
             margin: 0 auto;

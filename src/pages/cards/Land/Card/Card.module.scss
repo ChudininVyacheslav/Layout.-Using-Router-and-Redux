@@ -50,8 +50,14 @@
 }
 
 @media (max-width: 768px) {
-    .wrap {
-        flex-direction: column;
+    .container {
+        .title {
+            width: 500px;
+        }
+
+        .wrap {
+            flex-direction: column;
+        }
     }
 }
 
