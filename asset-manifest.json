@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/Layout.-Using-Router-and-Redux/static/css/main.c9a6b297.css",
+    "main.js": "/Layout.-Using-Router-and-Redux/static/js/main.0d3d2b7e.js",
+    "static/media/img-1.png": "/Layout.-Using-Router-and-Redux/static/media/img-1.18fcacf1950f54bbcf69.png",
+    "static/media/img-2.png": "/Layout.-Using-Router-and-Redux/static/media/img-2.0fd2451ec10c6195b73c.png",
+    "static/media/img-3.png": "/Layout.-Using-Router-and-Redux/static/media/img-3.55fc3bfd08953789183e.png",
+    "static/media/img-4.png": "/Layout.-Using-Router-and-Redux/static/media/img-4.a2e43f70ed506676bd1a.png",
+    "static/media/img-5.png": "/Layout.-Using-Router-and-Redux/static/media/img-5.6839e49e957c4cdd31dd.png",
+    "static/media/img-6.png": "/Layout.-Using-Router-and-Redux/static/media/img-6.5f3aefe78b80bc1d0b74.png",
+    "static/media/img-7.png": "/Layout.-Using-Router-and-Redux/static/media/img-7.501efae9a4f98d5b8cb0.png",
+    "static/media/img-8.png": "/Layout.-Using-Router-and-Redux/static/media/img-8.12049247c50f36ce60ed.png",
+    "static/media/img-9.png": "/Layout.-Using-Router-and-Redux/static/media/img-9.1657491fb98ec458852c.png",
+    "static/media/img.jpg": "/Layout.-Using-Router-and-Redux/static/media/img.9978a3f6347332cf57d9.jpg",
+    "static/media/img.png": "/Layout.-Using-Router-and-Redux/static/media/img.377024b98e34c71c9b28.png",
+    "static/media/img-1.jpg": "/Layout.-Using-Router-and-Redux/static/media/img-1.223e6dc0667ce5a04138.jpg",
+    "static/media/logo-footer.png": "/Layout.-Using-Router-and-Redux/static/media/logo-footer.4be27f641b8f232ec984.png",
+    "static/media/img-2.jpg": "/Layout.-Using-Router-and-Redux/static/media/img-2.b87889f60c3c7aba2621.jpg",
+    "static/media/logo-header.png": "/Layout.-Using-Router-and-Redux/static/media/logo-header.f98916e03273d05c12fb.png",
+    "static/media/img-3.jpg": "/Layout.-Using-Router-and-Redux/static/media/img-3.a7b8c7d6d52d06cc2008.jpg",
+    "index.html": "/Layout.-Using-Router-and-Redux/index.html",
+    "main.c9a6b297.css.map": "/Layout.-Using-Router-and-Redux/static/css/main.c9a6b297.css.map",
+    "main.0d3d2b7e.js.map": "/Layout.-Using-Router-and-Redux/static/js/main.0d3d2b7e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c9a6b297.css",
+    "static/js/main.0d3d2b7e.js"
+  ]
+}
