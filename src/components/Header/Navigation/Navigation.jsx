@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './Navigation.module.scss';
 import { Link } from 'react-router-dom';
 
-const menu = [{ url: '/', name: 'каталог' }, { url: '/technic', name: 'спецтехника' }, { url: '/documents', name: 'документы' }, { url: '/contacts', name: 'контакты' }];
+const menu = [{ url: '/Layout.-Using-Router-and-Redux', name: 'каталог' }, { url: '/Layout.-Using-Router-and-Redux/technic', name: 'спецтехника' }, { url: '/Layout.-Using-Router-and-Redux/documents', name: 'документы' }, { url: '/Layout.-Using-Router-and-Redux/contacts', name: 'контакты' }];
 
 const Navigation = () => {
     return (

@@ -16,7 +16,7 @@ const ListCards = () => {
                         <img className={styles['list__img']} alt='material' src={elem.img}></img>
                         <p className={styles['list__text']}>{elem.text}</p>
                         <p className={styles['list__price']}>{elem.price}</p>
-                        <Link to={`/product/${elem.id}`}><img className={styles['list__btn']} alt='button' src={elem.btn}></img></Link>
+                        <Link to={`/Layout.-Using-Router-and-Redux/product/${elem.id}`}><img className={styles['list__btn']} alt='button' src={elem.btn}></img></Link>
                     </li>
                 )
             })}

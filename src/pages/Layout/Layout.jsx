@@ -12,31 +12,31 @@ import Land from '../cards/Land/Land';
 
 const router = createBrowserRouter([
     {
-        path: '/',
+        path: '/Layout.-Using-Router-and-Redux',
         element: <Catalog />
     },
     {
-        path: '/technic',
+        path: '/Layout.-Using-Router-and-Redux/technic',
         element: <Technic />
     },
     {
-        path: '/documents',
+        path: '/Layout.-Using-Router-and-Redux/documents',
         element: <Documents />
     },
     {
-        path: '/contacts',
+        path: '/Layout.-Using-Router-and-Redux/contacts',
         element: <Contacts />
     },
     {
-        path: '/product/1',
+        path: '/Layout.-Using-Router-and-Redux/product/1',
         element: <Breakstone />
     },
     {
-        path: '/product/2',
+        path: '/Layout.-Using-Router-and-Redux/product/2',
         element: <Rock />
     },
     {
-        path: '/product/3',
+        path: '/Layout.-Using-Router-and-Redux/product/3',
         element: <Land />
     },
 ]);

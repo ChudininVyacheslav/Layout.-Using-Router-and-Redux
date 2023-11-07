@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './DeliveryMaterials.module.scss';
 import { Link } from 'react-router-dom';
 
-const materials = [{ material: 'Щебень', url: '/product/1' }, { material: 'Скала', url: '/product/2' }];
+const materials = [{ material: 'Щебень', url: '/Layout.-Using-Router-and-Redux/product/1' }, { material: 'Скала', url: '/Layout.-Using-Router-and-Redux/product/2' }];
 
 const DeliveryMaterials = () => {
     return (
@@ -11,7 +11,7 @@ const DeliveryMaterials = () => {
                 return (
                     <Link key={elem.url} to={elem.url} className={styles['text__link']}>{`${elem.material}, `}</Link>
                 )
-            })}<Link key='/product/3' to='/product/3' className={styles['text__link']}>Земля</Link></p>
+            })}<Link key='/product/3' to='/Layout.-Using-Router-and-Redux/product/3' className={styles['text__link']}>Земля</Link></p>
             <p className={styles['text__slogan']}>Низкие цены, реальные сроки!</p>
         </div>
     )
