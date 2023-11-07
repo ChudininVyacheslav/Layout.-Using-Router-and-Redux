@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Layout.-Using-Router-and-Redux/static/css/main.c9a6b297.css",
-    "main.js": "/Layout.-Using-Router-and-Redux/static/js/main.0d3d2b7e.js",
+    "main.js": "/Layout.-Using-Router-and-Redux/static/js/main.e51ced9a.js",
     "static/media/img-1.png": "/Layout.-Using-Router-and-Redux/static/media/img-1.18fcacf1950f54bbcf69.png",
     "static/media/img-2.png": "/Layout.-Using-Router-and-Redux/static/media/img-2.0fd2451ec10c6195b73c.png",
     "static/media/img-3.png": "/Layout.-Using-Router-and-Redux/static/media/img-3.55fc3bfd08953789183e.png",
@@ -20,10 +20,10 @@
     "static/media/img-3.jpg": "/Layout.-Using-Router-and-Redux/static/media/img-3.a7b8c7d6d52d06cc2008.jpg",
     "index.html": "/Layout.-Using-Router-and-Redux/index.html",
     "main.c9a6b297.css.map": "/Layout.-Using-Router-and-Redux/static/css/main.c9a6b297.css.map",
-    "main.0d3d2b7e.js.map": "/Layout.-Using-Router-and-Redux/static/js/main.0d3d2b7e.js.map"
+    "main.e51ced9a.js.map": "/Layout.-Using-Router-and-Redux/static/js/main.e51ced9a.js.map"
   },
   "entrypoints": [
     "static/css/main.c9a6b297.css",
-    "static/js/main.0d3d2b7e.js"
+    "static/js/main.e51ced9a.js"
   ]
 }
